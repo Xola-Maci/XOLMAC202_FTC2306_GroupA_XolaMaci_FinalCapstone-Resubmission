@@ -5,7 +5,7 @@ Introducing a Podcast App that showcases a variety of shows, neatly arranged int
 Xola Maci
 Student Number: XOLMAC202
 
-## Tech Stack
+# Tech Stack
 
 - **React**: A JavaScript library for building user interfaces.
 - **TypeScript**: A typed superset of JavaScript that adds static typing to the language.
@@ -14,3 +14,5 @@ Student Number: XOLMAC202
 - **JavaScript**: A programming language that enables interactive web pages.
 
 # Netlify Link 
+https://velvety-rugelach-33954d.netlify.app
+
