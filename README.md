@@ -1,8 +1,16 @@
-# React + Vite
+# Podcast App
+Introducing a Podcast App that showcases a variety of shows, neatly arranged into seasons and episodes. Users can relish an enriched experience with advanced filtering choices, the option to bookmark favorites, and convenient access to recently listened episodes. Craft a smooth audio journey for podcast aficionados through user-friendly navigation and tailored features.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Author
+Xola Maci
+Student Number: XOLMAC202
 
-Currently, two official plugins are available:
+## Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React**: A JavaScript library for building user interfaces.
+- **TypeScript**: A typed superset of JavaScript that adds static typing to the language.
+- **HTML**: The standard markup language for creating web pages and web applications.
+- **CSS**: A style sheet language for describing the look and formatting of a document written in HTML.
+- **JavaScript**: A programming language that enables interactive web pages.
+
+# Netlify Link 
