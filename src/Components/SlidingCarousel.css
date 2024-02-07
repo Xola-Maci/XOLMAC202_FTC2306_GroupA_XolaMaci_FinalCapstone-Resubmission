@@ -1,0 +1,32 @@
+/* Styles for the featured shows section */
+.featured-shows-container {
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 80px;
+  }
+  
+  /* Styles for each show in the slider */
+  .show-card {
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: fit-content;
+    background-color: #ffafcc;
+    
+  }
+  
+  /* Styles for the show image */
+  .show-image {
+    max-width: 150%;
+    height: 200px;
+    border-radius: 8px;
+    margin-right: 10px;
+    
+  }
+  
+  /* Styles for the show title */
+  .show-title {
+    margin-top: 10px;
+    font-size: 1.5rem;
+  }

@@ -1,0 +1,155 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: hsla(331, 54%, 44%, 1) 100%
+}
+
+main {
+  max-width: 100%;
+  margin: 20px auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+}
+
+.list--details {
+  width: 100%;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+}
+
+
+.podcast--main--image{
+      
+  margin-right: 10px;
+  max-width: 100%; 
+  border-radius: 8px
+}
+
+.show--link{
+  text-decoration: none;
+  color: black;
+  display:contents;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+  .show--link {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    align-items: flex-start; /* Align items to the start on smaller screens */
+  }
+}
+
+.podcast--title {
+  color: #333; /* Podcast name color */
+  margin-top: 10px;
+}
+
+.podcast--info{
+  width: calc(25% - 40px); /* Adjust the maximum width of container */
+  box-sizing: border-box;
+  max-height: 420px;
+  margin: 50px auto; /* Center the container on the page */
+  padding: 20px;
+  background-color: hsl(356, 100%, 82%); /* Container background color */
+  border: 2px solid #FFA5AB; /* Border color */
+  border-radius: 10px; /* Border radius for rounded corners */
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle lift */
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.podcast--info:hover {
+  transform: scale(1.05); /* Increase the scale on hover for a zoom effect */
+}
+
+.date--updated{
+  font-size: small;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.podcast--info h3{
+  font-size: small;
+  font-weight: bold;
+}
+
+.genre{
+  font-size: small;
+  font-weight:bolder;
+  margin-bottom: 8px; /* Adjust as needed */
+  color: black
+
+}
+
+.genre-label {
+  display: inline-block;
+  padding: 8px;
+  margin: 4px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: hsla(331, 54%, 44%, 1);
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.genre-label:hover {
+  background-color: hsl(356, 100%, 82%);
+}
+
+.selected {
+  background-color: hsl(356, 100%, 82%);
+  border-color: #FFA5AB;
+  
+}
+
+/* Styles for the select containers */
+.select-container {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+/* Styles for the search input */
+input[type="text"] {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+  color: deeppink;
+}
+
+/* Styles for the sorting select */
+select {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  height: 65px;
+  color:#FFA5AB;
+  padding: 20px;
+}
+
+/* Optional: Add some spacing or additional styling to improve aesthetics */
+.container {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+/* Optional: Style the option elements for better readability */
+option {
+  font-size: 14px;
+}
